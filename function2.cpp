@@ -21,3 +21,10 @@ int main()
 	cin>>l>>b;
 	cout<<"Enter base and height of a triangle:";
 	cin>>base>>hei;
+	area(ra);
+	area(l,b);
+	area(base,hei);
+	return 0;
+}
+
+
