@@ -5,4 +5,10 @@ void maximum(int a,int b)
 	int gr=(a>b)?a:b;
 	cout<<gr<<"is maximum";
 }
+void maximum(int a,int b,int c)
+{
+	int gr=(a>b&&a>c)?a:(b>c&&b>a)?b:c;
+	cout<<gr<<"is maximum";
+}
+
 
