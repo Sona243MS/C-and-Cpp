@@ -21,4 +21,10 @@ student::student()
             cout<<"Enter fee:";
             cin>>fee;
         }
+int main()
+{
+    student s1;
+    s1.display();
+}
+
 
