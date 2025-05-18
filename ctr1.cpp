@@ -12,4 +12,13 @@ public:
 		cout<<name<<"\t"<<rno<<"\t"<<fee<<"\t"<<endl;
 	}
 };
+student::student()
+        {
+            cout<<"Enter the name:";
+            cin>>name;
+            cout<<"Enter roll no:";
+            cin>>rno;
+            cout<<"Enter fee:";
+            cin>>fee;
+        }
 
