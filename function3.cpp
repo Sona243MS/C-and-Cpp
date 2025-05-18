@@ -11,4 +11,14 @@ void maximum(int a,int b,int c)
 	cout<<gr<<"is maximum";
 }
 
+int main()
+{
+	int a,b,c;
+	cout<<"Enter three numbers";
+	cin>>a>>b>>c;
+	maximum(a,b);
+	maximum(a,b,c);
+	return 0;
+}
+
 
