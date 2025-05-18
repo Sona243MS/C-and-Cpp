@@ -9,4 +9,7 @@ public:
 	student();
 	void display()
 	{
-	
+		cout<<name<<"\t"<<rno<<"\t"<<fee<<"\t"<<endl;
+	}
+};
+
