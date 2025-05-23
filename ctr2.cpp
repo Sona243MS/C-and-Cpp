@@ -18,4 +18,8 @@ class Wall
 			length=obj.length;
 			height=obj.height;
 		}
+		double calculateArea()
+		{
+			return length*height;
+		}
 
