@@ -12,4 +12,10 @@ class Wall
 			length=len;
 			height=hei;
 		}
+		//copy constructor
+		Wall(Wall &obj)
+		{
+			length=obj.length;
+			height=obj.height;
+		}
 
