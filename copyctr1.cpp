@@ -7,4 +7,9 @@ class Book
 		String title;
 		int pages;
 	public:
+		Book(string t,int p)
+		{
+			title=t;
+			pages=p;
+		}
 
