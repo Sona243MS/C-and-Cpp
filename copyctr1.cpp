@@ -12,4 +12,11 @@ class Book
 			title=t;
 			pages=p;
 		}
+//copy constructor
+Book(Book &other)
+{
+	title=other.title;
+	pages=other.pages;
+}
+
 
