@@ -25,4 +25,24 @@ public:
     }
     friend void comparearea(Rectangle r,Circle c);
 };
+void comparearea(Rectangle r,Circle c)
+{
+    int ar=r.length*r.width;
+    int ac=3.14*c.radius*c.radius;
+    cout<<"Area of rectangle="<<ar<<endl;
+    cout<<"Area of circle="<<ac<<endl;
+    if(ar>ac)
+    {
+        cout<<"Rectangle area is bigger than circle area";
+    }
+    else if(ac>ar)
+        {
+            cout<<"Circle area is bigger than rectangle area";
+        }
+        else
+        {
+            cout<<"Area of rectangle and circle is equal";
+        }
+    }
+
 
