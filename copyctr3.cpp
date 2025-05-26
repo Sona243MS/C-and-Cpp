@@ -40,4 +40,10 @@ public:
             arr[index] = value;
     }
 
+// Destructor
+    ~ArrayHolder() {
+        cout << "Destructor freeing memory at " << arr << endl;
+        delete[] arr;  // Free dynamically allocated memory
+    }
+};
 
