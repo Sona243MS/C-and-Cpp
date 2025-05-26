@@ -4,4 +4,9 @@ class Student
 {
     private:
     int marks;
+    public:
+    Student(int m)
+    {
+        marks=m;
+    }
 
