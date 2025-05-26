@@ -20,4 +20,11 @@ void updateMarks(int m)
     marks=m;
 }
 };
+int main()
+{
+    Student s1(85);
+    Student s2=s1;
+    s2.updateMarks(95);
+    cout<<"s1=";
+
 
