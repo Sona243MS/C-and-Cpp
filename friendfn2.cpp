@@ -14,4 +14,15 @@ public:
     }
     friend void comparearea(Rectangle r,Circle c);
 };
+class Circle
+{
+private:
+    int radius;
+public:
+    Circle(int rad)
+    {
+        radius=rad;
+    }
+    friend void comparearea(Rectangle r,Circle c);
+};
 
