@@ -46,4 +46,12 @@ public:
         delete[] arr;  // Free dynamically allocated memory
     }
 };
+int main() {
+    ArrayHolder obj1(5);  // Create obj1 with size 5
+    cout << "Original Object (obj1): ";
+    obj1.display();
+
+    ArrayHolder obj2 = obj1;  // Calls copy constructor
+    cout << "Copied Object (obj2): ";
+    obj2.display();
 
