@@ -16,4 +16,14 @@ public:
         cout << "Constructor: Array at " << arr << endl;
     }
 
+ // Copy Constructor (Deep Copy)
+    ArrayHolder(const ArrayHolder &other) {
+        size = other.size;
+        arr = new int[size];  // Allocate new memory
+        for (int i = 0; i < size; ++i) {
+            arr[i] = other.arr[i];  // Copy elements
+        }
+        cout << "Copy Constructor: Array at " << arr << endl;
+    }
+
 
