@@ -45,4 +45,18 @@ void comparearea(Rectangle r,Circle c)
         }
     }
 
+int main()
+{
+    int le,br,ra;
+    cout<<"Enter length and width of rectangle=";
+    cin>>le>>br;
+    cout<<"Enter radius of circle";
+    cin>>ra;
+    Rectangle r1(le,br);
+    Circle c1(ra);
+    comparearea(r1,c1);
+    return 0;
+}
+
+
 
