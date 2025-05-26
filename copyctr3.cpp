@@ -26,4 +26,12 @@ public:
         cout << "Copy Constructor: Array at " << arr << endl;
     }
 
+   // Display function
+    void display() {
+        for (int i = 0; i < size; ++i) {
+            cout << arr[i] << " ";
+        }
+        cout << endl;
+    }
+
 
