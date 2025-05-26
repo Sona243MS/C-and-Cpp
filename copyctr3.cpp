@@ -34,4 +34,10 @@ public:
         cout << endl;
     }
 
+// Modify array element
+    void setelement(int index, int value) {
+        if (index >= 0 && index < size)
+            arr[index] = value;
+    }
+
 
