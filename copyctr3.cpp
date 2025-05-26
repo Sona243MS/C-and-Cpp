@@ -54,4 +54,13 @@ int main() {
     ArrayHolder obj2 = obj1;  // Calls copy constructor
     cout << "Copied Object (obj2): ";
     obj2.display();
+    obj2.setelement(0, 99);  // Modify obj2
+    cout << "\nAfter modifying obj2:" << endl;
+    cout << "obj1: ";
+    obj1.display();
+    cout << "obj2: ";
+    obj2.display();
+
+    return 0;
+}
 
