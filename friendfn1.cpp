@@ -12,4 +12,9 @@ private:
     }
     friend void calculateArea(Box b1)
 };
+void calculateArea(Box b1)
+{
+    int area=b1.length*b1.width;
+    cout<<"Area:"<<area;
+}
 `
