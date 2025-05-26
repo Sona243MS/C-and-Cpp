@@ -9,4 +9,10 @@ class Student
     {
         marks=m;
     }
+    //copy constructor
+Student(Student &s)
+{
+    marks=s.marks;
+    cout<<"Marks"<<marks<<endl;
+}
 
