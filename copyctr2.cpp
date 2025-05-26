@@ -26,5 +26,10 @@ int main()
     Student s2=s1;
     s2.updateMarks(95);
     cout<<"s1=";
+     s1.show();
+    cout<<"s2=";
+    s2.show;
+    return 0;
+}
 
 
