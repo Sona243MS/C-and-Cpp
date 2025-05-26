@@ -15,4 +15,9 @@ Student(Student &s)
     marks=s.marks;
     cout<<"Marks"<<marks<<endl;
 }
+void updateMarks(int m)
+{
+    marks=m;
+}
+};
 
